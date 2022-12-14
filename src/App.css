@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  margin: 10px;
+}
+
+.app__header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 8rem;
+  margin-top: 2rem;
+}
+
+.app__autocomplete {
+  width: 20vw;
+  background-color: aliceblue;
+  border-radius: 6px;
+}
+
+.app__logo__h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app__img {
+  width: 30px;
+  margin-right: 8px;
+}
+
+.app__toggle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app__cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-evenly;
+}

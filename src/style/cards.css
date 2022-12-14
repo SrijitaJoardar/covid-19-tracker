@@ -1,0 +1,17 @@
+.card__Card {
+    width: 20vw;
+    height: 20vh;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    box-shadow: 23px 22px 33px 3px;
+}
+
+.card__CardCont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
